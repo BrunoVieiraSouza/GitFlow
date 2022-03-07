@@ -18,6 +18,5 @@ class ViewController: UIViewController {
     func retornaDefeito() -> String {
         return "Beicudo"
     }
-    
 }
 
