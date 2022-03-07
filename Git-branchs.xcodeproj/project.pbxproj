@@ -18,6 +18,7 @@
 		B079B3E227D67C4D00E9E17F /* Git_branchsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B079B3E127D67C4D00E9E17F /* Git_branchsUITestsLaunchTests.swift */; };
 		B079B3F027D67C7D00E9E17F /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B079B3EF27D67C7D00E9E17F /* Main.swift */; };
 		B079B3F327D67FE000E9E17F /* Develop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B079B3F227D67FE000E9E17F /* Develop.swift */; };
+		B079B3F627D6823900E9E17F /* DevBruno.swift in Sources */ = {isa = PBXBuildFile; fileRef = B079B3F527D6823900E9E17F /* DevBruno.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B079B3E127D67C4D00E9E17F /* Git_branchsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_branchsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B079B3EF27D67C7D00E9E17F /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		B079B3F227D67FE000E9E17F /* Develop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Develop.swift; sourceTree = "<group>"; };
+		B079B3F527D6823900E9E17F /* DevBruno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevBruno.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		B079B3BD27D67C4500E9E17F /* Git-branchs */ = {
 			isa = PBXGroup;
 			children = (
+				B079B3F427D6821E00E9E17F /* DevBruno */,
 				B079B3F127D67FCF00E9E17F /* Develop */,
 				B079B3EE27D67C6900E9E17F /* Main */,
 				B079B3C227D67C4500E9E17F /* ViewController.swift */,
@@ -147,6 +150,14 @@
 				B079B3F227D67FE000E9E17F /* Develop.swift */,
 			);
 			path = Develop;
+			sourceTree = "<group>";
+		};
+		B079B3F427D6821E00E9E17F /* DevBruno */ = {
+			isa = PBXGroup;
+			children = (
+				B079B3F527D6823900E9E17F /* DevBruno.swift */,
+			);
+			path = DevBruno;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +293,7 @@
 			files = (
 				B079B3F327D67FE000E9E17F /* Develop.swift in Sources */,
 				B079B3C327D67C4500E9E17F /* ViewController.swift in Sources */,
+				B079B3F627D6823900E9E17F /* DevBruno.swift in Sources */,
 				B079B3BF27D67C4500E9E17F /* AppDelegate.swift in Sources */,
 				B079B3F027D67C7D00E9E17F /* Main.swift in Sources */,
 				B079B3C127D67C4500E9E17F /* SceneDelegate.swift in Sources */,
