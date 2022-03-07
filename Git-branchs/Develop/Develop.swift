@@ -8,6 +8,6 @@
 import Foundation
 
 struct Develop {
-    var develops: String
+    var developsTesteDevBruno: String
     var mergeDevelopNaDevBruno: String
 }
