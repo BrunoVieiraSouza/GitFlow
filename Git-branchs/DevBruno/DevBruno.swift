@@ -9,4 +9,10 @@ import Foundation
 
 struct DevBruno {
     var devBruno: String
+    
+    
+    var voltarBranchAnterior: String
+    
+    var alteracoesParaDesfazer: String
+    
 }
