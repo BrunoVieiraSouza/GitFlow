@@ -17,6 +17,7 @@
 		B079B3E027D67C4D00E9E17F /* Git_branchsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B079B3DF27D67C4D00E9E17F /* Git_branchsUITests.swift */; };
 		B079B3E227D67C4D00E9E17F /* Git_branchsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B079B3E127D67C4D00E9E17F /* Git_branchsUITestsLaunchTests.swift */; };
 		B079B3F027D67C7D00E9E17F /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B079B3EF27D67C7D00E9E17F /* Main.swift */; };
+		B079B3F327D67FE000E9E17F /* Develop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B079B3F227D67FE000E9E17F /* Develop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B079B3DF27D67C4D00E9E17F /* Git_branchsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_branchsUITests.swift; sourceTree = "<group>"; };
 		B079B3E127D67C4D00E9E17F /* Git_branchsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_branchsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B079B3EF27D67C7D00E9E17F /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		B079B3F227D67FE000E9E17F /* Develop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Develop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		B079B3BD27D67C4500E9E17F /* Git-branchs */ = {
 			isa = PBXGroup;
 			children = (
+				B079B3F127D67FCF00E9E17F /* Develop */,
 				B079B3EE27D67C6900E9E17F /* Main */,
 				B079B3C227D67C4500E9E17F /* ViewController.swift */,
 				B079B3C427D67C4500E9E17F /* Main.storyboard */,
@@ -136,6 +139,14 @@
 				B079B3EF27D67C7D00E9E17F /* Main.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		B079B3F127D67FCF00E9E17F /* Develop */ = {
+			isa = PBXGroup;
+			children = (
+				B079B3F227D67FE000E9E17F /* Develop.swift */,
+			);
+			path = Develop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B079B3F327D67FE000E9E17F /* Develop.swift in Sources */,
 				B079B3C327D67C4500E9E17F /* ViewController.swift in Sources */,
 				B079B3BF27D67C4500E9E17F /* AppDelegate.swift in Sources */,
 				B079B3F027D67C7D00E9E17F /* Main.swift in Sources */,
