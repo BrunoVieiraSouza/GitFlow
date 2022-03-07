@@ -10,6 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     
     var main = "Main branch"
+    
+    var alteracoes = "teste"
 
     override func viewDidLoad() {
         super.viewDidLoad()
