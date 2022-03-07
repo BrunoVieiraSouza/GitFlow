@@ -10,5 +10,14 @@ import UIKit
 class ViewController: UIViewController {
     
     var main = "Main branch"
+    
+    func retornaString() -> String {
+        return "Alan trouxa"
+        
+    }
+    func retornaDefeito() -> String {
+        return "Beicudo"
+    }
+    
 }
 
