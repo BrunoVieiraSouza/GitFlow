@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+
+    fileprivate let umaVariavel = "Palmeiras"
     
     var main = "Main branch"
     
@@ -18,5 +20,21 @@ class ViewController: UIViewController {
     func retornaDefeito() -> String {
         return "Beicudo"
     }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        print("")
+    }
+
+    private func teste() -> Int {
+        return 2
+    }
+
+    func retornoDeRandom() -> Bool {
+        return Bool.random()
+    }
+
+    //MARK: Qualquer coisa
 }
 
